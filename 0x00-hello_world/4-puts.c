@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
- * We used function put to pint out the word
- * main - prints Programming is like building a multilingual puzzle
- * The value ands with 0
+ * main - prints with puts
+ * Description : We used function put to pint out the word
+ * function main - prints "Programming is like building a multilingual puzzle
+ *  Return: 0 if exited properly
  */
 int main(void)
 {
 	puts("\"Programming is like building is like building a Multilingual puzzle");
-	return(0);
+	return (0);
 
 }
