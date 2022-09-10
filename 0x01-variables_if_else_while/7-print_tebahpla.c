@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - prints
- * numbers using putchar
+ * main - prints lowercase
+ * letters in reverse order with putchar
  * Return: 0 always (success)
  */
 int main(void)
 {
-	int n;
+	int ch;
 
-	for (n = 48; n < 58; n++)
+	for (n = 'z'; n >= 'a'; n--)
 	{
 		putchar(n);
 	}
