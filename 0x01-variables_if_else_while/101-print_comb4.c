@@ -9,13 +9,13 @@ int main(void)
 {
 	int i, j, k;
 
-		for (i = 48; i <= 57; i++)
+		for (i = 48; i < 58; i++)
 		{
-			for (j = i + 1; i <= 57; j++)
+			for (j = 49; i < 58; j++)
 			{
-				for (k = j + 1; k <= 57; k++)
+				for (k = 50; k < 58; k++)
 				{
-					if ((j != i) && (k != j))
+					if (i > j && j > k)
 					{
 						putchar(i);
 						putchar(j);
