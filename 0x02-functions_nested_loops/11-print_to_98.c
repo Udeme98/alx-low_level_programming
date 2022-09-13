@@ -6,7 +6,7 @@
  * natural numbers from n to 98
  * @n: print from this number
  */
-void print_to_98(void)
+void print_to_98(int n)
 {
 	int i;
 
