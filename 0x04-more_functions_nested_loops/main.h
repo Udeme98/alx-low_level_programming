@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-int _isUpper(int c);
+int _isupper(int c);
 
 
 #endif
