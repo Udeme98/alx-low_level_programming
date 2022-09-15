@@ -3,5 +3,7 @@
 
 #include <stdio.h>
 
+int _isUpper(int c);
+
 
 #endif
