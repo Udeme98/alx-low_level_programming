@@ -13,9 +13,9 @@ void more_numbers(void)
 
 	while (k != 10)
 	{
-		for (i = 0; j = 48; i <= 14; i++, j++)
+		for (i = 0, j = 48; i <= 14; i++, j++)
 		{
-			if (i < 9)
+			if (i > 9)
 			{
 				_putchar(49);
 			}
