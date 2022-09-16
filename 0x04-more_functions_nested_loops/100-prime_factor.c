@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+ * main -  prints the largest prime factor
+ * of the number 612852475143
+ * Return: 0 always
+ */
+int main(void)
+{
+	unsigned long int i, n = 612852475143;
+
+	for (i = 3; i < 782849; i++)
+	{
+		while ((n % i == 0) && (n != i))
+			n = n / i;
+	}
+	printf("%lu\n", n);
+	return (0);
+}
