@@ -11,21 +11,21 @@ int main(void)
 
 	for (j = 1; j <= 100; j++)
 	{
-		if (i % 3 == 0)
+		if (j % 3 == 0)
 		{
 			printf("Fizz ");
 		}
-		else if (i % 5 == 0)
+		else if (j % 5 == 0)
 		{
 			printf("Buzz ");
 		}
-		else if (i % 5 == 0 && i % 3 == 0)
+		else if (j % 5 == 0 && j % 3 == 0)
 		{
 			printf("FizzBuzz ");
 		}
 		else
 		{
-			printf("%d ", i);
+			printf("%d ", j);
 		}
 	}
 	printf("Buzz\n");
