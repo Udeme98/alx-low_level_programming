@@ -21,6 +21,9 @@ char *_strdup(char *str)
 	pointer = (char *)malloc(sizeof(char) * i + 1);
 
 	if (!pointer)
+		return (NULL);
+
+	for (j = 0; j < i; j++)
 		pointer[j] = str[j];
 
 	pointer[j] = '\0';
