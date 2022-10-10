@@ -1,0 +1,1 @@
+Structues and typedef
